@@ -1,5 +1,5 @@
 {% set name = "rustywind" %}
-{% set version = "0.22.0" %}
+{% set version = "0.23.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/avencera/rustywind/archive/v{{ version }}.tar.gz
-  sha256: c2181a32c873f8608a89973eaed8b540ee3421c7bc1740f954d3d7f5ef620885
+  sha256: d7ba13370721df4cc6728ca6b956f9a92ab260de08c03ef445a105a87e382546
 
 build:
   number: 0
