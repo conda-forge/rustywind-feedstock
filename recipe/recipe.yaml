@@ -1,5 +1,5 @@
 context:
-  version: "0.24.3"
+  version: "0.25.0"
 
 package:
   name: rustywind
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/avencera/rustywind/archive/v${{ version }}.tar.gz
-  sha256: 50706558f411722631db2449f5f05463703ebeffdea41f6e5f28f383992d06cb
+  sha256: 32d3bff8de2b08a17fca485994e69e33619a78b1e397d4059dc445f62d19603b
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
